@@ -1,0 +1,41 @@
+form {
+    margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"],
+form input[name="latitude"],
+form input[name="longitude"] {
+    background-color: transparent;
+    color: red;
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+}
+
+form input:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+form input .container::-webkit-input-placeholder {
+    color: black !important;
+}
+.navbar-brand{
+    padding-top: 57px;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+.btn{
+   margin: auto;
+}
+
+table {
+    border: solid 1px;
+    padding: 2px;
+    width: 100%;
+  }
+  .level_clr{
+      background-color:#ffffff;
+  }
